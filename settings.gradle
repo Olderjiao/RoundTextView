@@ -1,0 +1,3 @@
+include ':MyRoundTextlibrary'
+include ':app'
+rootProject.name = "RoundTextView"

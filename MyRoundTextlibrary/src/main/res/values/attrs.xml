@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyRoundTextView">
+        <attr name="m_gradient_color_start" format="color|reference" />
+        <attr name="m_gradient_color_end" format="color|reference" />
+        <attr name="m_stroke_width" format="integer|dimension" />
+        <attr name="m_is_full" format="boolean" />
+    </declare-styleable>
+</resources>
