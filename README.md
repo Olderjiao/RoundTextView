@@ -1,2 +1,2 @@
 # RoundTextView
-implementation 'com.github.Olderjiao:RoundTextView:Tag'
+implementation 'com.github.Olderjiao:RoundTextView:1.0'
