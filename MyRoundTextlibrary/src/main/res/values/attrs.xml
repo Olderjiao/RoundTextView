@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="MyRoundTextView">
+        <!--起始颜色-->
         <attr name="m_gradient_color_start" format="color|reference" />
+        <!--结束颜色-->
         <attr name="m_gradient_color_end" format="color|reference" />
+        <!--线条宽度-->
         <attr name="m_stroke_width" format="integer|dimension" />
+        <!--是否渐变背景充满-->
         <attr name="m_is_full" format="boolean" />
     </declare-styleable>
 </resources>
