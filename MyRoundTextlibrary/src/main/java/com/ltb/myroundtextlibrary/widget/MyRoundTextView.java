@@ -179,8 +179,8 @@ public class MyRoundTextView extends androidx.appcompat.widget.AppCompatTextView
     /**
      * 设置状态改变前后的文字信息
      *
-     * @param content1
-     * @param content2
+     * @param content1 点击前展示的文字
+     * @param content2 点击后展示的文字
      */
     public void setContent(String content1, String content2) {
         this.content1 = content1;
@@ -190,7 +190,7 @@ public class MyRoundTextView extends androidx.appcompat.widget.AppCompatTextView
     /**
      * 设置是点击后的状态还是点击前的状态
      *
-     * @param full
+     * @param full 是否充满背景
      */
     public void setFull(boolean full) {
         if (TextUtils.isEmpty(content1) || TextUtils.isEmpty(content2)) {
